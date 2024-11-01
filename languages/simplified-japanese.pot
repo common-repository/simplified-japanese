@@ -1,0 +1,308 @@
+# Copyright (C) 2020 Alfasado Inc.
+# This file is distributed under the same license as the Simplified Japanese plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simplified Japanese 0.2.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/simplified-japanese\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-08-31T13:57:29+09:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: simplified-japanese\n"
+
+#. Plugin Name of the plugin
+msgid "Simplified Japanese"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://tsutaeru.website/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Support the creation of easy Japanese."
+msgstr ""
+
+#. Author of the plugin
+msgid "Alfasado Inc."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://alfasado.net"
+msgstr ""
+
+#: class.tsutaeru-web.php:175
+msgid "Client ID and Client Secret are required."
+msgstr ""
+
+#: class.tsutaeru-web.php:195
+msgid "Authentication failed."
+msgstr ""
+
+#: class.tsutaeru-web.php:267
+#: class.tsutaeru-web.php:423
+msgid "Add furigana failed because text is too large."
+msgstr ""
+
+#: class.tsutaeru-web.php:342
+msgid "Simplified Japanese translation failed because text is too large."
+msgstr ""
+
+#: class.tsutaeru-web.php:393
+msgid "Break with clauses failed because text is too large."
+msgstr ""
+
+#: simplified-japanese.php:114
+#: assets/js/gutenberg/simplified-japanese.js:3098
+#: src/index.js:55
+msgid "Convert Simplified Japanese"
+msgstr ""
+
+#: simplified-japanese.php:115
+#: simplified-japanese.php:432
+#: assets/js/gutenberg/simplified-japanese.js:3112
+#: src/index.js:68
+msgid "Break with Clauses"
+msgstr ""
+
+#: simplified-japanese.php:116
+#: simplified-japanese.php:434
+#: assets/js/gutenberg/simplified-japanese.js:3126
+#: src/index.js:81
+msgid "Put on Furigana"
+msgstr ""
+
+#: simplified-japanese.php:117
+#: simplified-japanese.php:436
+#: assets/js/gutenberg/simplified-japanese.js:2889
+#: src/edit-ruby.js:167
+msgid "Edit Ruby"
+msgstr ""
+
+#: simplified-japanese.php:118
+#: assets/js/gutenberg/simplified-japanese.js:2429
+#: assets/js/gutenberg/simplified-japanese.js:3007
+#: assets/js/gutenberg/simplified-japanese.js:3447
+#: src/break-with-clauses.js:66
+#: src/furigana.js:67
+#: src/simplifed.js:69
+msgid "No text selected"
+msgstr ""
+
+#: simplified-japanese.php:119
+msgid "An error occurred while translating to Simplified Japanese."
+msgstr ""
+
+#: simplified-japanese.php:120
+msgid "An error occurred while Break with Clauses."
+msgstr ""
+
+#: simplified-japanese.php:121
+msgid "An error occurred while put on furigana."
+msgstr ""
+
+#: simplified-japanese.php:122
+msgid "Ruby"
+msgstr ""
+
+#: simplified-japanese.php:123
+msgid "Text"
+msgstr ""
+
+#: simplified-japanese.php:124
+msgid "Processing simplified japanese plugin..."
+msgstr ""
+
+#: simplified-japanese.php:195
+msgid "No data to return."
+msgstr ""
+
+#: simplified-japanese.php:205
+#: simplified-japanese.php:222
+#: simplified-japanese.php:284
+msgid "Invalid Access."
+msgstr ""
+
+#: simplified-japanese.php:231
+msgid "No text selected."
+msgstr ""
+
+#: simplified-japanese.php:389
+#: simplified-japanese.php:652
+msgid "Settings for simplified japanese plugin"
+msgstr ""
+
+#: simplified-japanese.php:410
+msgid "Editor Settings"
+msgstr ""
+
+#: simplified-japanese.php:416
+msgid "Buttons to display"
+msgstr ""
+
+#: simplified-japanese.php:430
+msgid "Make Simplified Japanese"
+msgstr ""
+
+#: simplified-japanese.php:443
+msgid "Separation separator"
+msgstr ""
+
+#: simplified-japanese.php:458
+msgid "Behavior when adding furigana"
+msgstr ""
+
+#: simplified-japanese.php:462
+msgid "Break with clauses when adding furigana in richtext"
+msgstr ""
+
+#: simplified-japanese.php:463
+#: simplified-japanese.php:475
+msgid "Press the shift key and click the button for the opposite setting."
+msgstr ""
+
+#: simplified-japanese.php:470
+msgid "Behavior when translating to simplified japanese (1)"
+msgstr ""
+
+#: simplified-japanese.php:474
+msgid "Break with clauses when translating to Simplified Japanese in richtext"
+msgstr ""
+
+#: simplified-japanese.php:482
+msgid "Behavior when translating to simplified japanese (2)"
+msgstr ""
+
+#: simplified-japanese.php:486
+msgid "Add ruby when translating to Simplified Japanese in richtext"
+msgstr ""
+
+#: simplified-japanese.php:487
+msgid "Press the option key and click the button for the opposite setting."
+msgstr ""
+
+#: simplified-japanese.php:496
+msgid "Ruby Settings"
+msgstr ""
+
+#: simplified-japanese.php:502
+msgid "Use &lt;rp&gt; tag"
+msgstr ""
+
+#: simplified-japanese.php:506
+msgid "Add Ruby Parentheses(&lt;rp&gt;~&lt;/rp&gt;) for unsupported browsers"
+msgstr ""
+
+#: simplified-japanese.php:513
+msgid "Add style to <rt> tag"
+msgstr ""
+
+#: simplified-japanese.php:517
+msgid "Specify font size style in <rt> tag"
+msgstr ""
+
+#: simplified-japanese.php:518
+msgid "Font size is retained when pasted into Microsoft Word."
+msgstr ""
+
+#: simplified-japanese.php:527
+msgid "Tsutaeru Web API"
+msgstr ""
+
+#: simplified-japanese.php:529
+msgid "Request a Tsutaeru Web API Key"
+msgstr ""
+
+#: simplified-japanese.php:530
+msgid "You have successfully applied for an API key. Save your settings."
+msgstr ""
+
+#: simplified-japanese.php:536
+msgid "E-mail"
+msgstr ""
+
+#: simplified-japanese.php:540
+msgid "Please enter the email address to use when applying for the API key."
+msgstr ""
+
+#: simplified-japanese.php:550
+msgid "Client ID"
+msgstr ""
+
+#: simplified-japanese.php:563
+msgid "Client Secret"
+msgstr ""
+
+#: simplified-japanese.php:576
+msgid "Cache Setting"
+msgstr ""
+
+#: simplified-japanese.php:586
+msgid "Cache results"
+msgstr ""
+
+#: simplified-japanese.php:587
+msgid "If you save the settings, clear the cache."
+msgstr ""
+
+#: simplified-japanese.php:594
+msgid "End Point (Token)"
+msgstr ""
+
+#: simplified-japanese.php:607
+msgid "End Point (Simplified)"
+msgstr ""
+
+#: simplified-japanese.php:622
+msgid "For Testing"
+msgstr ""
+
+#: simplified-japanese.php:628
+msgid "SSL Verify"
+msgstr ""
+
+#: simplified-japanese.php:632
+msgid "Disables verification of the SSL certificate"
+msgstr ""
+
+#: simplified-japanese.php:633
+msgid "Used when encrypted connection fails in development environment etc."
+msgstr ""
+
+#: simplified-japanese.php:653
+msgid "Simplified japanese"
+msgstr ""
+
+#: assets/js/gutenberg/simplified-japanese.js:2392
+#: assets/js/gutenberg/simplified-japanese.js:2970
+#: assets/js/gutenberg/simplified-japanese.js:3408
+#: src/break-with-clauses.js:27
+#: src/furigana.js:28
+#: src/simplifed.js:28
+msgid "The processing could not be executed. Please try narrowing down the selection range of sentences."
+msgstr ""
+
+#: assets/js/gutenberg/simplified-japanese.js:2542
+#: src/dropdown/components/technote-space-dropdown.js:45
+msgid "Simplified Japanese Functions"
+msgstr ""
+
+#: assets/js/gutenberg/simplified-japanese.js:3332
+#: src/ruby-control.js:48
+msgid "Ruby Text"
+msgstr ""
+
+#: assets/js/gutenberg/simplified-japanese.js:3337
+#: src/ruby-control.js:54
+msgid "Analyzing a candidate of furigana…"
+msgstr ""
+
+#: assets/js/gutenberg/simplified-japanese.js:3339
+#: assets/js/gutenberg/simplified-japanese.js:3340
+#: src/ruby-control.js:63
+#: src/ruby-control.js:64
+msgid "OK"
+msgstr ""

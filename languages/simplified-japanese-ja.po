@@ -1,0 +1,298 @@
+# Copyright (C) 2020 Simplified Japanese
+# This file is distributed under the same license as the Simplified Japanese package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simplified Japanese 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/simplified-"
+"japanese\n"
+"POT-Creation-Date: 2020-08-31T13:19:58+09:00\n"
+"PO-Revision-Date: 2020-08-31 13:20+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Plugin Name of the plugin
+msgid "Simplified Japanese"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://tsutaeru.website/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Support the creation of easy Japanese."
+msgstr "やさしい日本語の作成を支援します。"
+
+#. Author of the plugin
+msgid "Alfasado Inc."
+msgstr "アルファサード株式会社"
+
+#. Author URI of the plugin
+msgid "https://alfasado.net"
+msgstr ""
+
+#: class.tsutaeru-web.php:195
+msgid "Authentication failed."
+msgstr "認証に失敗しました。"
+
+#: class.tsutaeru-web.php:267 class.tsutaeru-web.php:421
+msgid "Add furigana failed because text is too large."
+msgstr "文章が長すぎるため、ふりがなの追加ができませんでした。"
+
+#: class.tsutaeru-web.php:342
+msgid "Simplified Japanese translation failed because text is too large."
+msgstr "文章が長すぎるため、やさしい日本語化できませんでした。"
+
+#: class.tsutaeru-web.php:393
+msgid "Break with clauses failed because text is too large."
+msgstr "文章が長すぎるため、分かち書きができませんでした。"
+
+#: simplified-japanese.php:114 assets/js/gutenberg/simplified-japanese.js:3098
+#: src/index.js:55
+msgid "Convert Simplified Japanese"
+msgstr "やさしい日本語にする"
+
+#: simplified-japanese.php:115 simplified-japanese.php:436
+#: assets/js/gutenberg/simplified-japanese.js:3112 src/index.js:68
+msgid "Break with Clauses"
+msgstr "分かち書きをする"
+
+#: simplified-japanese.php:116 simplified-japanese.php:438
+#: assets/js/gutenberg/simplified-japanese.js:3126 src/index.js:81
+msgid "Put on Furigana"
+msgstr "ふりがなをつける"
+
+#: simplified-japanese.php:117 simplified-japanese.php:440
+#: assets/js/gutenberg/simplified-japanese.js:2889 src/edit-ruby.js:167
+msgid "Edit Ruby"
+msgstr "ふりがなを編集する"
+
+#: simplified-japanese.php:118 assets/js/gutenberg/simplified-japanese.js:2429
+#: assets/js/gutenberg/simplified-japanese.js:3007
+#: assets/js/gutenberg/simplified-japanese.js:3447 src/break-with-clauses.js:66
+#: src/furigana.js:67 src/simplifed.js:69
+msgid "No text selected"
+msgstr "テキストが選択されていません"
+
+#: simplified-japanese.php:119
+msgid "An error occurred while translating to Simplified Japanese."
+msgstr "やさしい日本語への機械翻訳中にエラーが発生しました。"
+
+#: simplified-japanese.php:120
+msgid "An error occurred while Break with Clauses."
+msgstr "分かち書きの処理中にエラーが発生しました。"
+
+#: simplified-japanese.php:121
+msgid "An error occurred while put on furigana."
+msgstr "ふりがなの生成中にエラーが発生しました。"
+
+#: simplified-japanese.php:122
+msgid "Ruby"
+msgstr "ルビ"
+
+#: simplified-japanese.php:123
+msgid "Text"
+msgstr "対象"
+
+#: simplified-japanese.php:124
+msgid "Processing simplified japanese plugin..."
+msgstr "やさしい日本語プラグインの処理中です…"
+
+#: simplified-japanese.php:195
+msgid "No data to return."
+msgstr "返却できるデータがありません。"
+
+#: simplified-japanese.php:205 simplified-japanese.php:222
+#: simplified-japanese.php:288
+msgid "Invalid Access."
+msgstr "不正なアクセスです。"
+
+#: simplified-japanese.php:231
+msgid "No text selected."
+msgstr "テキストが選択されていません。"
+
+#: simplified-japanese.php:254
+msgid "Client ID and Client Secret are required."
+msgstr "クライアント IDとクライアント・シークレットが必要です。"
+
+#: simplified-japanese.php:393 simplified-japanese.php:656
+msgid "Settings for simplified japanese plugin"
+msgstr "やさしい日本語エディタの設定"
+
+#: simplified-japanese.php:414
+msgid "Editor Settings"
+msgstr "エディタの設定"
+
+#: simplified-japanese.php:420
+msgid "Buttons to display"
+msgstr "表示するボタン"
+
+#: simplified-japanese.php:434
+msgid "Make Simplified Japanese"
+msgstr "やさしい日本語にする"
+
+#: simplified-japanese.php:447
+msgid "Separation separator"
+msgstr "分かち書きの区切り文字"
+
+#: simplified-japanese.php:462
+msgid "Behavior when adding furigana"
+msgstr "ふりがな追加時の振る舞い"
+
+#: simplified-japanese.php:466
+msgid "Break with clauses when adding furigana in richtext"
+msgstr "リッチテキストへのふりがな追加時に分かち書きする"
+
+#: simplified-japanese.php:467 simplified-japanese.php:479
+msgid "Press the shift key and click the button for the opposite setting."
+msgstr "シフトキーを押しながらボタンをクリックすると反対の設定になります。"
+
+#: simplified-japanese.php:474
+msgid "Behavior when translating to simplified japanese (1)"
+msgstr "やさしい日本語化時の振る舞い(1)"
+
+#: simplified-japanese.php:478
+msgid "Break with clauses when translating to Simplified Japanese in richtext"
+msgstr "リッチテキストの内容をやさしい日本語化する時に分かち書きする"
+
+#: simplified-japanese.php:486
+msgid "Behavior when translating to simplified japanese (2)"
+msgstr "やさしい日本語化時の振る舞い(2)"
+
+#: simplified-japanese.php:490
+msgid "Add ruby when translating to Simplified Japanese in richtext"
+msgstr "リッチテキストの内容をやさしい日本語化する時にふりがなを追加する"
+
+#: simplified-japanese.php:491
+msgid "Press the option key and click the button for the opposite setting."
+msgstr "オプションキーを押しながらボタンをクリックすると反対の設定になります。"
+
+#: simplified-japanese.php:500
+msgid "Ruby Settings"
+msgstr "ルビの設定"
+
+#: simplified-japanese.php:506
+msgid "Use &lt;rp&gt; tag"
+msgstr "&lt;rp&gt;タグの使用"
+
+#: simplified-japanese.php:510
+msgid "Add Ruby Parentheses(&lt;rp&gt;~&lt;/rp&gt;) for unsupported browsers"
+msgstr "非対応ブラウザのために&lt;rp&gt;~&lt;/rp&gt;タグを追加する"
+
+#: simplified-japanese.php:517
+msgid "Add style to <rt> tag"
+msgstr "&lt;rt&gt;タグへのスタイル追加"
+
+#: simplified-japanese.php:521
+msgid "Specify font size style in <rt> tag"
+msgstr "&lt;rt&gt;タグにフォントサイズのスタイルを追加する"
+
+#: simplified-japanese.php:522
+msgid "Font size is retained when pasted into Microsoft Word."
+msgstr "Microsoft Wordにペーストした時にルビのサイズが適切になります。"
+
+#: simplified-japanese.php:531
+msgid "Tsutaeru Web API"
+msgstr "伝えるウェブAPI"
+
+#: simplified-japanese.php:533
+msgid "Request a Tsutaeru Web API Key"
+msgstr "伝えるウェブのAPIキーを申請する"
+
+#: simplified-japanese.php:534
+msgid "You have successfully applied for an API key. Save your settings."
+msgstr "APIキーの申請が完了しました。設定を保存してください。"
+
+#: simplified-japanese.php:540
+msgid "E-mail"
+msgstr ""
+
+#: simplified-japanese.php:544
+msgid "Please enter the email address to use when applying for the API key."
+msgstr "APIキーの申請時に使用するメールアドレスを入力してください。"
+
+#: simplified-japanese.php:554
+msgid "Client ID"
+msgstr "クライアントID"
+
+#: simplified-japanese.php:567
+msgid "Client Secret"
+msgstr "クライアント・シークレット"
+
+#: simplified-japanese.php:580
+msgid "Cache Setting"
+msgstr "キャッシュ設定"
+
+#: simplified-japanese.php:590
+msgid "Cache results"
+msgstr "結果をキャッシュする"
+
+#: simplified-japanese.php:591
+msgid "If you save the settings, clear the cache."
+msgstr "設定を保存するとキャッシュはクリアされます。"
+
+#: simplified-japanese.php:598
+msgid "End Point (Token)"
+msgstr "エンドポイント（トークン）"
+
+#: simplified-japanese.php:611
+msgid "End Point (Simplified)"
+msgstr "エンドポイント（やさしい日本語）"
+
+#: simplified-japanese.php:626
+msgid "For Testing"
+msgstr "テスト環境向けの設定"
+
+#: simplified-japanese.php:632
+msgid "SSL Verify"
+msgstr "SSL/TLSの検証"
+
+#: simplified-japanese.php:636
+msgid "Disables verification of the SSL certificate"
+msgstr "SSL/TLSサーバー証明書の検証を無効化"
+
+#: simplified-japanese.php:637
+msgid "Used when encrypted connection fails in development environment etc."
+msgstr "開発環境等で暗号化通信に失敗する場合に使用します。"
+
+#: simplified-japanese.php:657
+msgid "Simplified japanese"
+msgstr "やさしい日本語"
+
+#: assets/js/gutenberg/simplified-japanese.js:2392
+#: assets/js/gutenberg/simplified-japanese.js:2970
+#: assets/js/gutenberg/simplified-japanese.js:3408 src/break-with-clauses.js:27
+#: src/furigana.js:28 src/simplifed.js:28
+msgid ""
+"The processing could not be executed. Please try narrowing down the "
+"selection range of sentences."
+msgstr ""
+"処理を実行できませんでした。文章の選択範囲を狭くして再度実行してください。"
+
+#: assets/js/gutenberg/simplified-japanese.js:2542
+#: src/dropdown/components/technote-space-dropdown.js:45
+msgid "Simplified Japanese Functions"
+msgstr "やさしい日本語機能"
+
+#: assets/js/gutenberg/simplified-japanese.js:3332 src/ruby-control.js:48
+msgid "Ruby Text"
+msgstr "ふりがな"
+
+#: assets/js/gutenberg/simplified-japanese.js:3337 src/ruby-control.js:54
+msgid "Analyzing a candidate of furigana…"
+msgstr "ふりがな候補の分析中…"
+
+#: assets/js/gutenberg/simplified-japanese.js:3339
+#: assets/js/gutenberg/simplified-japanese.js:3340 src/ruby-control.js:63
+#: src/ruby-control.js:64
+msgid "OK"
+msgstr ""
+
+#~ msgid ""
+#~ "Simplified Japanese translation failed because authentication failed."
+#~ msgstr "認証に失敗したため、やさしい日本語化できませんでした。"
